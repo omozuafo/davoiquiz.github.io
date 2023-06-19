@@ -1,0 +1,527 @@
+
+:root{
+    --bg-primary:#0e1a60;
+    --color-primary: #0e1a60;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: var(--bg-primary);
+    padding: 10px;
+}
+
+a,  a:focus{
+
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+
+section, .container{
+    position: relative;
+}
+
+
+
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.nav-link{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    margin: 0 10px 0 10px;
+}
+
+.nav-lnk{
+    text-transform: uppercase;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    
+}
+
+.nav-link:hover{
+    background-color: #fff;
+}
+
+
+/* Hero barnner section */
+
+.hero-banner{
+    background: url(../images/home.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    min-height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.hero-banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(5 38 111 /71%);
+}
+
+.banner-text-wrap{
+    max-width: 600px
+
+}
+
+.banner-text-wrap p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.banner-text-wrap h1{
+    font-size: 50px;
+    font-weight: 700;
+    ;
+}
+
+.btn{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 24px;
+    border-radius: 0px;
+
+}
+
+.btn-white{
+    background: #fff;
+    color: var(--bg-primary);
+    border: 0px;
+    border-radius: 0px;
+    
+   
+}
+
+.btn-white:hover{
+
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff
+}
+
+
+
+/* about */
+
+
+
+.aboutus-section{
+    padding-top: 100px;
+}
+.aboutus-section h2{
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+}
+
+.aboutus-text{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.pmission{
+    padding: 20px;
+    font-weight: lighter;
+    text-align: justify;
+    line-height: 2.0rem;
+}
+
+.pabout{
+    padding: 10px;
+    font-weight: lighter;
+    line-height: 28px;
+    text-align: justify;
+}
+/* Beginning features */
+
+section.features-section{
+    
+   margin-top: -90px;
+}
+.bg1{
+    background: #10285f;
+}
+
+.bg2{
+    background: #0c2f7d;
+}
+
+.bg3{
+    background: #1148c3;
+}
+
+.features-box h3 , .features-box p {
+    color: #fff;
+}
+
+.features-box{
+    padding: 40px;
+}
+
+.img-features{
+    
+    width: 60px;
+    height: 60px;
+}
+
+.features-box:hover{
+    transform: scale(1.1);
+    transition: transform 330ms ease-in-out;
+}
+
+/* End of features */
+
+/* past events section */
+
+.gallery-section{
+    padding-top: 100px;
+}
+
+.gallery-section h1 {
+    font-weight: lighter;
+  
+    text-align: center;
+    
+}
+
+.gallery{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.gallery img{
+    border: 4px solid;
+    border-color: #fff;
+    max-width: 100%;
+    max-height:50%;
+}
+
+.des{
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: 4px solid;
+    border-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+
+}
+
+hr{
+    border-style: dotted;
+
+    
+}
+
+img{
+    
+        box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                    0 2px 2px rgba(0,0,0,0.11), 
+                    0 4px 4px rgba(0,0,0,0.11), 
+                    0 8px 8px rgba(0,0,0,0.11), 
+                    0 16px 16px rgba(0,0,0,0.11), 
+                    0 32px 32px rgba(0,0,0,0.11);
+    
+}
+
+.hr-gallery{
+    color: #C0C0C0;
+    width: 40px;
+    border-style: dotted none none;
+    height: 0px;
+    border-width: 5px;
+    margin:50px auto;
+}
+
+/* end of past events */
+
+
+/*  Up comming Events starts  */
+.upcoming-events{
+    padding: 50px 0px 0px 20px;
+}
+.hue{
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* (A) TIMELINE CONTAINER */
+.vtl {
+    /* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+    position: relative;
+   margin: auto;
+   
+    /* (A2) RESERVE MORE SPACE TO THE LEFT FOR THE TIMELINE */
+    padding: 10px 10px 10px 50px;
+   
+    /* (A3) OPTIONAL WIDTH RESTRICTION */
+    max-width: 400px;
+  }
+  .vtl, .vtl * { box-sizing: border-box; }
+  
+  /* (B) DRAW VERTICAL LINE USING ::BEFORE */
+  .vtl::before {
+    /* (B1) VERTICAL LINE */
+    content: "";
+    width: 5px;
+    background-color: #0e1a60;
+   
+    /* (B2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 0; bottom: 0; left: 15px;
+  }
+  
+  /* (C) COSMETICS FOR EVENTS */
+  div.event {
+    padding: 20px 30px;
+    background-color: #1148c3;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  /* (D) COSMETICS FOR EVENT DATE & TEXT */
+  p.date {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #fff;
+  }
+  p.txt {
+    margin: 10px 0 0 0;
+    color: #222;
+  }
+  
+  /* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+  div.event::before {
+    /* (E1) "MAGIC TRIANGLE" */
+    content: "";
+    border: 10px solid transparent;
+    border-right-color: #ffebeb;
+    border-left: 0;
+   
+     /* (E2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 20%; left: -10px;
+  }
+  
+  /* (F) CIRCLE ON TIMELINE */
+  div.event::after {
+    /* (F1) "MAGIC CIRCLE" */
+    content: "";
+    background: #fff;
+    border: 4px solid #1148c3;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+   
+    /* (F2) POSITION TO THE LEFT */
+    position: absolute;
+    top: 20%; left: -44px;
+  }
+
+/*  Up comming Events ends */
+
+/* about us section */
+.contact-us{
+    padding: 100px 0px 0px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .min-contact {
+      font-size: 35px;
+    }
+  }
+
+.section-title{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.title-section{
+    margin-bottom: 20px;
+
+}
+
+.bg-color{
+    background: #0e1a60;
+    
+    
+}
+
+.bg-social{
+    background: #10285f;
+}
+
+
+@media screen and (max-width: 900px) {
+    .h4-social {
+      font-size: 11px;
+    }
+  }
+
+
+  .h4-social {
+    padding: 10px 0px 0px 10px;
+  }
+
+  @media screen and (max-width: 900px) {
+    .h4-email{
+        padding: 0px 0px 0px 0px;
+      }
+    
+  }
+
+
+  
+  .bg-color2{
+    background:#fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+                    0 2px 2px rgba(0,0,0,0.11), 
+                    0 4px 4px rgba(0,0,0,0.11), 
+                    0 8px 8px rgba(0,0,0,0.11), 
+                    0 16px 16px rgba(0,0,0,0.11), 
+                    0 32px 32px rgba(0,0,0,0.11);
+  }
+
+  .btn-mail{
+    background-color: #0e1a60;
+    color: #fff;
+  }
+
+  .btn-mail:hover{
+    background-color: #fff;
+    color: #0e1a60;
+    border: 2px solid;
+    border-color: #0e1a60;
+
+    
+  }
+
+  .link-ref{
+    background-color: #fff;
+    color: #fff;
+  }
+
+  .link-ref:hover{
+    background-color: #C0C0C0;
+    color: #C0C0C0;
+  }
+/* end of about us */
+
+
+
+
+/* managent section */
+
+#managment-section{
+    background-color: #0e1a60;
+    color: #fff;
+    padding: 20px 0px 0px 30px;
+}
+
+.man-text{
+    
+    text-align: center;
+
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.pmana{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 2.0rem;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    
+    
+}
+/* end of managment section */
+
+
+
+/* curriculum  sectionbs*/
+
+     /* back section */
+
+     .back-section{
+        padding: 20px 0px 0px 20px;
+     }
+
+     .aback{
+        color: #C0C0C0;
+     }
+
+     
+
+
+
+
+     /* end of back section */
+
+
+/* end of curriculum section */

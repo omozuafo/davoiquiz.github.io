@@ -1,0 +1,11 @@
+.carousel{
+  width: 70%;
+  height: 70%;
+} 
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+/* Add a hover effect (blue shadow) */
